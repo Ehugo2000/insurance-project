@@ -3,7 +3,29 @@
 .header-class {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     
 }
 
+
+.covered-class {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-color: #C7DDEA;
+
+}
+
+.learn-class{
+    grid-column: 3/4;
+    grid-row: 1;
+    background-color: #F17949;
+
+}
+
+.join-class {
+    grid-column: 3/4;
+    grid-row: 2;
+    background-color: #FAB131;
+
+}
 /* CSS för Main */
