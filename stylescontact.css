@@ -1,0 +1,39 @@
+/* CSS FOR CONTACT PAGE */
+.container-class {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(22, 1fr);
+    grid-template-areas: 
+    "header header header header header header"
+    "header header header header header header"
+    "header header header header header header"
+    "header header header header header header"
+    "header header header header header header"
+    "navbar navbar navbar navbar navbar navbar"
+    "contact contact contact contact contact contact"
+    "contact contact contact contact contact contact"
+    "contact contact contact contact contact contact"
+    "contact contact contact contact contact contact"
+    "contact contact contact contact contact contact"
+    "contact contact contact contact contact contact";
+
+
+}
+
+.header-class {
+    background-color: #C7DDEA;
+    grid-area: header;
+}
+
+.navbar {
+    grid-area: navbar;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.contact {
+    background-color: #A9A19E;
+    grid-area: contact;
+}
