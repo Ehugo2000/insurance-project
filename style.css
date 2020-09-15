@@ -1,5 +1,9 @@
 /* CSS för Header */
 
+strong {
+    color: white;
+    font-style: normal;
+}
 .header-class {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -8,12 +12,14 @@
 }
 
 
+
 .covered-class {
     grid-column: 2/3;
     grid-row: 1/3;
     background-color: #C7DDEA;
 
 }
+
 
 .learn-class{
     grid-column: 3/4;
