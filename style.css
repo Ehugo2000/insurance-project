@@ -47,7 +47,6 @@ grid-template-rows: repeat(2,1fr);
 
 .Upper-main{
 display: flex; 
-justify-content: space-between;
 flex-direction: row;   
 grid-column: 2/6;
 grid-row: 1;
@@ -55,7 +54,8 @@ background-color: #A9A19E;
 
 }
 
-.Lower-main{
+.Lower-main{    
+display: flex;    
 grid-column: 2/6;    
 grid-row: 2;
 background-color: #FAB131;
@@ -63,13 +63,40 @@ background-color: #FAB131;
 
 .Upper-main p{
 
-    flex: 10%;
+   flex: 10%;
+   padding: 100px;
+   max-width: 250px;
+   font-size: 14px;
+   line-height: 24px;
+
+
 }
 
-.Upper-main button{
+.join-now{
 
-    align-self: flex-start;
-    
+margin-top: 50px;
+   
+        
+}
+
+.Upper-main h1{
+font-size: 45px;
+max-width: 300px;
+max-height: 150px;
+
+
+}
+
+.H1-button{
+padding: 70px;
+margin-left: 50px;
+}
+
+.Lower-main h2,p{
+    max-width: 
+
+    align-self: center;
+
 }
 
 /* ändrade storlekt på bilderna för att fixa layouten lättare */
