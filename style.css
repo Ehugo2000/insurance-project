@@ -132,8 +132,7 @@ margin: auto;
    background-color:#C7DDEA;  
    grid-column: 1;
    grid-row: 1;
-   max-width: 330px;
-   max-height: 330px;
+   min-height: 330px;
 }
 
 .square1{
