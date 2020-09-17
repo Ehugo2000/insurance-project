@@ -1,58 +1,38 @@
-/* CSS FOR CONTACT PAGE */
+/* CSS for contact page */
 
-.container-class {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(22, 1fr);
-    grid-template-areas: 
-    "header header header header header header"
-    "header header header header header header"
-    "header header header header header header"
-    "header header header header header header"
-    "header header header header header header"
-    "navbar navbar navbar navbar navbar navbar"
-    "contact contact contact contact contact contact"
-    "contact contact contact contact contact contact"
-    "contact contact contact contact contact contact"
-    "contact contact contact contact contact contact"
-    "contact contact contact contact contact contact"
-    "contact contact contact contact contact contact";
-   
-
-
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
 }
 
-.header-class {
-    background-color: #C7DDEA;
-    grid-area: header;
+.header {
+    background-color: gray;
     display: flex;
-   
-
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
-.greeting {
-    justify-self: center;
-
+.header h1 {
+    align-self: center;
+    margin-right: 100px;
 }
 
-.header-picture {
-  justify-self: flex-end;
- 
+.picture {
+    size: 1000px;
 }
 
-
-
-.navbar {
-    grid-area: navbar;
-    display: flex;
-    justify-content: space-around;
-  
+.nav-bar {
+    background-color: yellow;
 }
 
 .contact {
-    background-color: #A9A19E;
-    grid-area: contact;
+    background-color: green;
 }
 
+.map {
+    background-color: purple;
+}
 
+.footer {
+    background-color: red;
+}
