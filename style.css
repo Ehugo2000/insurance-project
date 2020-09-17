@@ -121,6 +121,7 @@ margin: auto;
 }
 /* Här börjar footer -----------------*/
 .Upper-footer{
+    display: flex;
     display: grid;
     grid-template-columns: repeat(3, 333px);
     grid-template-rows: repeat(2,333px);
