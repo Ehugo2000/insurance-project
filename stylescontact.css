@@ -22,11 +22,16 @@
 }
 
 .nav-bar {
-    background-color: yellow;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
 .contact {
     background-color: green;
+    
 }
 
 .map {
