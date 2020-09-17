@@ -5,8 +5,10 @@
     margin: auto;
 }
 
+
+
 .header {
-    background-color: gray;
+    background-color: #C7DDEA;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -30,7 +32,7 @@
 }
 
 .contact {
-    background-color: green;
+    background-color: #A9A19E;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-columns: repeat(1, 1fr);
@@ -56,5 +58,6 @@
 }
 
 .footer {
-    background-color: red;
+    background-color: #777574;
+
 }
