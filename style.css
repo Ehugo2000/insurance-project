@@ -80,7 +80,7 @@ height:680px;
 }
 /* Här slutar griden ----------------------------------*/
 .Upper-main p{
-flex: 10%;
+
 padding-bottom: 100px;
 padding-left: 100px;
 max-width: 250px;
@@ -103,7 +103,7 @@ padding: 70px;
 margin-left: 50px;
 }
 
-.Lower-main h2,p{
+.Lower-main h2, p {
 max-width: 400px;
 margin-bottom: 100px;
 align-self: center;
@@ -121,8 +121,6 @@ margin: auto;
 }
 /* Här börjar footer -----------------*/
 .Upper-footer{
-    display: flex;
-    flex-direction:row;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -130,6 +128,9 @@ margin: auto;
 }
 
 .how-it-works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
    background-color:#C7DDEA;  
    grid-column: 1;
    grid-row: 1;
@@ -137,30 +138,98 @@ margin: auto;
 }
 
 .square1{
+    display: flex;  
     background-color: #ffffff;
     grid-column: 2;
     grid-row: 1;
 }
+
+.square1 h3{
+    margin-left: 20px;
+}
+
+
+
 .square2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color:#EBEBEB;
     grid-column: 3;
     grid-row: 1;
 
 }
 
-.square3{
-background-color: #ffffff;
+.square2 h3{
+    margin-bottom: ;
+    margin-left: 20px;
 }
 
-.square4{
+.square3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+background-color: #ffffff;
+}
+.square3 h3{
+    margin-bottom: ;
+    margin-left: 20px;
+}
 
+.square4{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #F17949;
 
 }
+.square4 h3{
+    margin-bottom: ;
+    margin-left: 20px;
+}
 
 .square5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #ffffff;
 }
+
+.square5 h3{
+    margin-bottom: ;
+    margin-left: 20px;
+}
+
+
+
+.Take-me-up{
+background-color:  #A9A19E;    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 68px;
+}
+
+.take-me-link{
+    text-decoration: none;
+    color: black;
+}
+
+.Lower-footer{
+
+    height: 340px;
+    background-color: #777574;
+}
+
+.Take-me-up img{
+
+    height: 10px;
+    width: 14px;
+}
+
+
+
 /* ändrade storlekt på bilderna för att fixa layouten lättare */
 img{
 
