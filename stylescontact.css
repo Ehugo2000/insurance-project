@@ -32,38 +32,6 @@
     list-style-type: none;
 }
 
-.contact {
-    background-color: #A9A19E;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-columns: repeat(1, 1fr);
-    
-}
-
-.contact-h2 {
-    grid-column: 1;
-
-}
-.contact-form {
-    grid-column: 2;
-
-}
-
-.map {
-  
-}
-
-.map-pic-class{
-
-
-}
-
-.footer {
-    background-color: #777574;
-    min-height: 300px;
-
-}
-
 
 /* INKLIPPT CSS TEST ***************/
 * {
@@ -71,33 +39,30 @@
   }
   
   /* Style inputs */
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+  input[type=email], select, textarea {
+    width: 75%;
+    padding: 5px;      
   }
   
+  input [type=subject] {
+    width: 75%;
+    padding: 5px;
+  }
+
   input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: rgb(247, 247, 247);
+    color: black;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
+    border-radius: 60px;
+    margin-left: 43%;
+    }
+    
   /* Style the container/contact section */
   .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
+    background-color:#bcbcbc;
+    }
   
   /* Create two columns that float next to eachother */
   .column {
@@ -121,3 +86,12 @@
       margin-top: 0;
     }
   }
+
+  .map-pic-class{
+}
+
+.footer {
+    background-color: #777574;
+    min-height: 300px;
+}
+
