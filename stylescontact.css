@@ -1,4 +1,11 @@
 /* CSS for contact page */
+h1, h2, h3 {
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+p, li, form, ::placeholder {
+    font-family: 'Fira Sans', sans-serif;
+}
 
 .wrapper {
     max-width: 1000px;
@@ -23,6 +30,7 @@
 
 .picture {
     size: 1000px;
+    
 }
 
 .nav-bar {
@@ -43,6 +51,7 @@
       color: white;
       text-align: center;
       font-size: xx-large;
+    
   }
   
   /* Style inputs */
@@ -62,6 +71,7 @@
   }
   ::placeholder{
       color: black;
+      
   }
 
   input[type=submit] {
@@ -72,12 +82,13 @@
     cursor: pointer;
     border-radius: 60px;
     margin-left: 43%;
+    font-family: 'Fira Sans', sans-serif;
    
     }
     
   /* Style the container/contact section */
   .container {
-    background-color:#bcbcbc;
+    background-color:#A9A19E;
     }
   
   /* Create two columns that float next to eachother */
@@ -100,10 +111,28 @@
   }
 
   .map {
-      background-image: url("img/map.png");
+      display: flex;
+      background-image: url("img/mapwithgps.png");
       height: 300px;
-      background-size: cover;
+      background-size: contain;
   }
+
+  .visit-us {
+      width: 250px;
+      height: 150px;
+      background-color: rgb(255, 186, 37);
+      color: white;
+      margin-top: 3%;
+      margin-left: 5%;
+      padding-left: 20px;
+     
+
+    }
+
+    .visit-us h3 {
+        font-size: x-large;
+    }
+  
    
   .footer {
     background-color: #777574;
