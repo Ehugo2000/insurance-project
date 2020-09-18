@@ -1,4 +1,6 @@
-/* CSS for contact page */
+/***** CSS for contact page *****/
+
+/*Google fonts*/
 h1, h2, h3 {
     font-family: 'Frank Ruhl Libre', serif;
 }
@@ -13,7 +15,7 @@ p, li, form, ::placeholder {
 }
 
 
-
+/* Header block */
 .header {
     background-color: #C7DDEA;
     display: flex;
@@ -23,16 +25,16 @@ p, li, form, ::placeholder {
 }
 
 .header h1 {
-    align-self: center;
+    align-self: cent;
     font-size: 3em;
-    margin-right: 100px;
+    margin-top: 100px;
 }
 
 .picture {
     size: 1000px;
     
 }
-
+/* Navbar block */
 .nav-bar {
     background-color: white;
     display: flex;
@@ -42,36 +44,36 @@ p, li, form, ::placeholder {
 }
 
 
-/* INKLIPPT CSS TEST ***************/
+/* Contact block */
 * {
     box-sizing: border-box;
   }
 
+  .container {
+    background-color:#A9A19E;
+    }
+  
   .column h2 {
       color: white;
       text-align: center;
       font-size: xx-large;
-    
-  }
+    }
   
-  /* Style inputs */
   input[type=email], select, textarea {
     width: 75%;
     padding: 5px;   
     border: none;   
-   
   }
   
   input [type=subject] {
     width: 75%;
     padding: 5px;
     color: black;
-    
-    
   }
+
   ::placeholder{
       color: black;
-      
+      padding: 5px;
   }
 
   input[type=submit] {
@@ -83,15 +85,8 @@ p, li, form, ::placeholder {
     border-radius: 60px;
     margin-left: 43%;
     font-family: 'Fira Sans', sans-serif;
-   
-    }
+  }
     
-  /* Style the container/contact section */
-  .container {
-    background-color:#A9A19E;
-    }
-  
-  /* Create two columns that float next to eachother */
   .column {
     float: left;
     width: 50%;
@@ -103,13 +98,14 @@ p, li, form, ::placeholder {
       color: rgb(226, 226, 226);
   }
   
-  /* Clear floats after the columns */
+
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
 
+/* Map block */
   .map {
       display: flex;
       background-image: url("img/mapwithgps.png");
@@ -133,7 +129,7 @@ p, li, form, ::placeholder {
         font-size: x-large;
     }
   
-   
+/* Footer block */
   .footer {
     background-color: #777574;
     min-height: 300px;
