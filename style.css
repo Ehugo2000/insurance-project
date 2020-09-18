@@ -80,12 +80,12 @@ height:680px;
 }
 /* Här slutar griden ----------------------------------*/
 .Upper-main p{
-
-padding-bottom: 100px;
-padding-left: 100px;
+margin-left: 100px;
+margin-top: 130px;
 max-width: 250px;
 font-size: 14px;
 line-height: 24px;
+font-weight: ;
 }
 
 .join-now{
@@ -103,14 +103,20 @@ padding: 70px;
 margin-left: 50px;
 }
 
-.Lower-main h2, p {
+.Lower-main p {
 max-width: 400px;
 margin-bottom: 100px;
 align-self: center;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
 
 }
 
 .Lower-main h2{
+    max-width: 350px;
+    margin-bottom: 100px;
+    align-self: center;    
 line-height: 1px;
 font-size: 45px;
 }
@@ -138,68 +144,82 @@ margin: auto;
 }
 
 .square1{
-    display: flex;  
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
     background-color: #ffffff;
     grid-column: 2;
     grid-row: 1;
+    
+}
+
+.square1 p{
+    align-self: center;
+    margin-right: 50px;
 }
 
 .square1 h3{
-    margin-left: 20px;
+    
 }
 
 
 
 .square2{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color:#EBEBEB;
     grid-column: 3;
     grid-row: 1;
 
 }
 
+.square2 p{
+    align-self: center;
+    margin-right: 80px;
+
+
+}
+
 .square2 h3{
-    margin-bottom: ;
-    margin-left: 20px;
+    margin-right: 50px;
 }
 
 .square3{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
 background-color: #ffffff;
 }
-.square3 h3{
-    margin-bottom: ;
-    margin-left: 20px;
+.square3 p{
+    align-self: center;
+    margin-right: 50px;
 }
 
 .square4{ 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #F17949;
 
 }
-.square4 h3{
-    margin-bottom: ;
-    margin-left: 20px;
+.square4 p{
+    align-self: center;
+    margin-right: 50px;
 }
 
 .square5{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #ffffff;
 }
 
-.square5 h3{
-    margin-bottom: ;
-    margin-left: 20px;
-}
+.square5 p{
 
+    align-self: center;
+    margin-right: 110px;
+}
+    
+.square5 h3{
+    margin-right: 70px;
+}
 
 
 .Take-me-up{
