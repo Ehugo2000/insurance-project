@@ -1,5 +1,14 @@
 /* CSS för Header */
 
+/*Google fonts*/
+h1, h2, h3 {
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+p, li {
+    font-family: 'Fira Sans', sans-serif;
+}
+
 body{
     background-color:  #E5E5E5;
 }
@@ -8,12 +17,40 @@ strong {
     color: white;
     font-style: normal;
 }
+
+/* HEADER */
 .header-class {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     
 }
+
+.covered-text-class{
+
+}
+
+.covered-button-class {
+
+}
+
+.covered-pic-class{
+
+}
+
+.learn-class{
+    text-align: center;
+    padding: 10%;
+    font-weight: bold;
+  
+}
+
+.join-class{
+    text-align: center;
+    padding: 10%;
+    font-weight: bold;
+}
+
 
 
 
@@ -23,6 +60,8 @@ strong {
     background-color: #C7DDEA;
 
 }
+
+
 
 
 .learn-class{
@@ -43,6 +82,7 @@ strong {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    list-style-type: none;
 
 
 
