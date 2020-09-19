@@ -186,6 +186,8 @@ margin-left: 50px;
 .Child-card p{
     font-size: 10px;
     line-height: 17px;
+    opacity: 50%;
+    font-weight: 600;
 }
 
 .Child{
