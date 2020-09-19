@@ -102,10 +102,59 @@ max-height: 150px;
 padding: 70px;
 margin-left: 50px;
 }
+.Card-container{
+    display: flex;
+    justify-content: center;
+    
+}
 
 .Child-card{
+    background-color: blue;
     height: 308px;
-    width: 256px;
+    min-width: 250px;
+}
+.Child{
+    display: flex;
+    margin-left: 25px;
+    background-color: chartreuse;
+    width: 200px;
+    
+}
+
+.Child img{
+  height: 150px;
+}
+
+.Adult-card{
+    background-color: blue;
+    height: 308px;
+    min-width: 250px;
+}
+
+.Adult{
+    display: flex;
+    margin-left: 25px;
+    background-color: chartreuse;
+    width: 200px;
+}
+
+.Adult img{
+    height: 150px;
+}
+
+.Old-card{
+    background-color: blue;
+    height: 308px;
+    min-width: 250px;
+}
+.Old{
+    display: flex;
+    margin-left: 25px;
+    background-color: chartreuse;
+    width: 200px;
+}
+.Old img{
+    height: 150px;
 }
 
 .Lower-main p {
