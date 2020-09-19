@@ -163,10 +163,11 @@ margin-left: 50px;
 }
 
 .Card-block{
-    grid-column: span 2;
-    grid-row: ;
+    grid-column: 1/3;
+    grid-row: 1/3;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 1000px;
 }
 .Card-container{
@@ -177,15 +178,20 @@ margin-left: 50px;
 }
 
 .Child-card{
-    background-color: blue;
+    background-color:#ffffff;
     height: 308px;
     width: 250px;
     text-align: center;
 }
+.Child-card p{
+    font-size: 10px;
+    line-height: 17px;
+}
+
 .Child{
     display: flex;
     margin-left: 25px;
-    background-color: chartreuse;
+    background-color: #C7DDEA;
     width: 200px;
     
 }
@@ -195,16 +201,20 @@ margin-left: 50px;
 }
 
 .Adult-card{
-    background-color: blue;
+    background-color: #ffffff;
     height: 308px;
     width: 250px;
     text-align: center;
+}
+.Adult-card p{
+    font-size: 10px;
+    line-height: 17px;
 }
 
 .Adult{
     display: flex;
     margin-left: 25px;
-    background-color: chartreuse;
+    background-color: #FAB131;
     width: 200px;
 }
 
@@ -213,15 +223,21 @@ margin-left: 50px;
 }
 
 .Old-card{
-    background-color: blue;
+    background-color: #ffffff   ;
     height: 308px;
     width: 250px;
     text-align: center;
 }
+
+.Old-card p{
+    font-size: 10px;
+    line-height: 17px;
+    
+}
 .Old{
     display: flex;
     margin-left: 25px;
-    background-color: chartreuse;
+    background-color:#F17949;
     width: 200px;
 }
 .Old img{
