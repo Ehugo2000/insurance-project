@@ -141,10 +141,11 @@ height:680px;
 .Upper-main p{
 margin-left: 100px;
 margin-top: 130px;
-max-width: 250px;
-font-size: 14px;
+max-width: 300px;
+font-size: 13px;
 line-height: 24px;
-font-weight: ;
+font-weight: bold ;
+opacity: 60%;
 }
 
 .join-now{
@@ -182,6 +183,7 @@ margin-left: 50px;
     height: 308px;
     width: 250px;
     text-align: center;
+    border-radius: 5px;
 }
 .Child-card p{
     font-size: 10px;
@@ -191,10 +193,12 @@ margin-left: 50px;
 }
 
 .Child{
+    margin-top: -20px;
     display: flex;
     margin-left: 25px;
     background-color: #C7DDEA;
     width: 200px;
+    border-radius: 5px;
     
 }
 
@@ -207,17 +211,22 @@ margin-left: 50px;
     height: 308px;
     width: 250px;
     text-align: center;
+    border-radius: 5px;
 }
 .Adult-card p{
     font-size: 10px;
     line-height: 17px;
+    opacity: 50%;
+    font-weight: 600;
 }
 
 .Adult{
+    margin-top: -20px;
     display: flex;
     margin-left: 25px;
     background-color: #FAB131;
     width: 200px;
+    border-radius: 5px;
 }
 
 .Adult img{
@@ -229,37 +238,46 @@ margin-left: 50px;
     height: 308px;
     width: 250px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .Old-card p{
     font-size: 10px;
     line-height: 17px;
+    opacity: 50%;
+    font-weight: 600;
+    
     
 }
 .Old{
+    margin-top: -20px;
     display: flex;
     margin-left: 25px;
     background-color:#F17949;
     width: 200px;
+    border-radius: 5px;
 }
 .Old img{
     height: 150px;
-    margin-right: 10px;
+    margin-left: -10px;
+    
 }
 
 .Lower-main p {
 max-width: 400px;
 margin-bottom: 100px;
 align-self: center;
-font-size: 14px;
+font-size: 12px;
 line-height: 20px;
 text-align: center;
+font-weight: 600;
+opacity: 60%;
 
 }
 
 .Lower-main h2{
     max-width: 350px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     align-self: center;    
 line-height: 1px;
 font-size: 45px;
@@ -288,7 +306,8 @@ margin: auto;
 }
 
 .how-it-works h3{
-    font-size: 35px;
+    font-size: 45px;
+    text-align: center;
 }
 
 .square1{
@@ -304,6 +323,8 @@ margin: auto;
 .square1 p{
     align-self: center;
     margin-right: 50px;
+    text-align: center;
+    font-weight: 500;
 }
 
 .square1 h3{
@@ -326,6 +347,7 @@ margin: auto;
 .square2 p{
     align-self: center;
     margin-right: 80px;
+    text-align: center;
 
 
 }
@@ -344,6 +366,7 @@ background-color: #ffffff;
 .square3 p{
     align-self: center;
     margin-right: 50px;
+    text-align: center;
 }
 
 .square3 h3{
@@ -398,6 +421,8 @@ height: 68px;
 .take-me-link{
     text-decoration: none;
     color: black;
+    font-size:  17px;
+    font-weight: 500;
 }
 
 .Lower-footer{
