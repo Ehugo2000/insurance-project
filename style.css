@@ -144,8 +144,11 @@ margin-left: 50px;
 }
 
 .Card-block{
+    grid-column: span 2;
+    grid-row: ;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    width: 1000px;
 }
 .Card-container{
     width: 800px;
@@ -158,7 +161,7 @@ margin-left: 50px;
     background-color: blue;
     height: 308px;
     width: 250px;
-    margin-left: ;
+    text-align: center;
 }
 .Child{
     display: flex;
@@ -176,6 +179,7 @@ margin-left: 50px;
     background-color: blue;
     height: 308px;
     width: 250px;
+    text-align: center;
 }
 
 .Adult{
@@ -193,6 +197,7 @@ margin-left: 50px;
     background-color: blue;
     height: 308px;
     width: 250px;
+    text-align: center;
 }
 .Old{
     display: flex;
@@ -202,6 +207,7 @@ margin-left: 50px;
 }
 .Old img{
     height: 150px;
+    margin-right: 10px;
 }
 
 .Lower-main p {
@@ -244,6 +250,10 @@ margin: auto;
    min-height: 330px;
 }
 
+.how-it-works h3{
+    font-size: 35px;
+}
+
 .square1{
     display: flex;
     justify-content: center;
@@ -260,7 +270,9 @@ margin: auto;
 }
 
 .square1 h3{
-    
+    text-align: center;
+    font-size: 25px;
+    opacity: 40%;
 }
 
 
@@ -283,6 +295,8 @@ margin: auto;
 
 .square2 h3{
     margin-right: 50px;
+    font-size: 25px;
+    opacity: 40%;
 }
 
 .square3{
@@ -295,6 +309,11 @@ background-color: #ffffff;
     margin-right: 50px;
 }
 
+.square3 h3{
+    font-size: 25px;
+    opacity: 40%;
+}
+
 .square4{ 
     display: flex;
     justify-content: space-evenly;
@@ -304,6 +323,11 @@ background-color: #ffffff;
 .square4 p{
     align-self: center;
     margin-right: 50px;
+}
+
+.square4 h3{
+    font-size: 25px;
+    opacity: 40%;
 }
 
 .square5{
@@ -320,6 +344,8 @@ background-color: #ffffff;
     
 .square5 h3{
     margin-right: 70px;
+    font-size: 25px;
+    opacity: 40%;
 }
 
 
