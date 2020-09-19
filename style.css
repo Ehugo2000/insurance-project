@@ -259,7 +259,7 @@ margin-left: 50px;
 }
 .Old img{
     height: 150px;
-    margin-left: -10px;
+    margin-left: -15px;
     
 }
 
@@ -440,7 +440,7 @@ height: 68px;
 
 
 /* ändrade storlekt på bilderna för att fixa layouten lättare */
-img{
+.covered-pic-class img{
 
     height: 200px;
     width: 200px;
