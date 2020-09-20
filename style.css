@@ -306,8 +306,12 @@ margin: auto;
 }
 
 .how-it-works h3{
+    font-style: normal;
     font-size: 45px;
     text-align: center;
+    line-height: 45px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
 }
 
 .square1{
