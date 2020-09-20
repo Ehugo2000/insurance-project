@@ -89,11 +89,16 @@ button {
      
   }
 
+  #imagehide{
+      visibility: hidden;
+  }
+
 .covered-pic-class{
 grid-row: 2;
 grid-column: 2;
 background-image: url(img/family.png);
 background-size: cover;
+z-index: 1;
 }
 
 .learn-class{
@@ -494,7 +499,12 @@ height: 68px;
 
 .covered-button-class{
     margin-left: 0;
+    margin-bottom: 20px;
    
+}
+
+#imagehide {
+    margin-left: 1vh;
 }
 
 .navbar{
