@@ -1,6 +1,6 @@
-/***** CSS for contact page *****/
+/*---------- CSS for Contact page ----------*/
 
-/*Google fonts*/
+/*---------- Fonts ----------*/
 h1, h2, h3 {
     font-family: 'Frank Ruhl Libre', serif;
 }
@@ -9,13 +9,19 @@ p, li, form, ::placeholder {
     font-family: 'Fira Sans', sans-serif;
 }
 
+li {
+  font-weight: 600;
+  font-size: small;
+}
+
+/*---------- Wrapper ----------*/
 .wrapper {
     max-width: 1000px;
     margin: auto;
+    box-shadow: 2px 2px 5px #888888;
 }
 
-
-/* Header block */
+/*---------- Header block ----------*/
 .header {
     background-color: #C7DDEA;
     display: flex;
@@ -35,19 +41,21 @@ p, li, form, ::placeholder {
     size: 1000px;
     
 }
-/* Navbar block */
+/*---------- Nav-bar block ----------*/
 .nav-bar {
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
-/* Contact block */
+/*---------- Main block ----------*/
 
-  .container {
+  .main {
     background-color:#A9A19E;
     display: flex;
     justify-content: space-between;
@@ -60,7 +68,7 @@ p, li, form, ::placeholder {
       padding: 1em;
     }
   
-  .column {
+  .contact-form-class {
       width: 50%;
       margin-top: 6px;
       padding: 20px;
@@ -101,13 +109,12 @@ p, li, form, ::placeholder {
 
   
     
-  .column label {
+  .contact-form-class label {
       color: rgb(226, 226, 226);
   }
   
 
-
-/* Map block */
+/*---------- Map block ----------*/
   .map {
       display: flex;
       background-image: url("img/mapwithgps.png");
@@ -129,70 +136,70 @@ p, li, form, ::placeholder {
         font-size: x-large;
     }
   
-/* Footer block */
+/*---------- Footer block ----------*/
   .footer {
     background-color: #777574;
     min-height: 300px;
 }
 
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+  /*-------------------- MEDIA QUERIES --------------------*/
   @media only screen and (max-width: 600px) {
     
+  /*---------- MEDIA QUERIES: Wrapper ----------*/
     .wrapper {
       display: flex;
       flex-direction: column;
     }
 
-   .header-pic {
-       display: none;
-    }
-
-   .header {
+  /*---------- MEDIA QUERIES: Header block ----------*/
+  .header {
     justify-content: center;
-    }
+  }
 
-    .header h1 {
-      padding-left: 0;
-    }
-
-    .nav-bar{
+  .header-pic {
       display: none;
-    }
+  }
 
-    .container {
-      display: flex;
-      justify-content: center;
-    }
+  .header h1 {
+    padding-left: 0;
+  }
 
-    .whats-class {
-      display: none;
-    }
+  /*---------- MEDIA QUERIES: Nav-bar ----------*/
+  .nav-bar{
+    display: none;
+  }
 
+  /*---------- MEDIA QUERIES: Main block ----------*/
+  .main {
+    display: flex;
+    justify-content: center;
+  }
 
-  
-    .column input[type=submit] {
-      text-align: center;
-    }
+  .whats-class {
+    display: none;
+  }
 
-    input[type=submit] {
-     margin-left: auto;
-    }
+  .contact-form-class input[type=submit] {
+    text-align: center;
+  }
 
-    .visit-us {
-        display: none;
-    }
-.map {
+  input[type=submit] {
+    margin-left: auto;
+  }
+
+  .visit-us {
+    display: none;
+  }
+
+  /*---------- MEDIA QUERIES: Map block ----------*/
+  .map {
     background-image: url("img/map-mobilesize.png");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
+  }
 
 }
 
-.footer {
-  margin: 0;
-}
 
-}
-
- 
