@@ -25,9 +25,10 @@ p, li, form, ::placeholder {
 }
 
 .header h1 {
-    align-self: cent;
+    align-self: center;
     font-size: 3em;
     margin-top: 100px;
+    padding-left: 15%;
 }
 
 .picture {
@@ -45,9 +46,6 @@ p, li, form, ::placeholder {
 
 
 /* Contact block */
-* {
-    box-sizing: border-box;
-  }
 
   .container {
     background-color:#A9A19E;
@@ -63,7 +61,6 @@ p, li, form, ::placeholder {
     }
   
   .column {
-      float: left;
       width: 50%;
       margin-top: 6px;
       padding: 20px;
@@ -89,15 +86,20 @@ p, li, form, ::placeholder {
   }
 
   input[type=submit] {
-    background-color: rgb(247, 247, 247);
+    background-color: white;
     color: black;
-    padding: 12px 20px;
+    border-radius: 100px;
+    height: 39px;
+    width: 131px;
+    font-size: 10px;
+    text-align: center;
     border: none;
-    cursor: pointer;
-    border-radius: 60px;
+    box-shadow: 1px 2px #888888;
     margin-left: 43%;
     font-family: 'Fira Sans', sans-serif;
   }
+
+  
     
   .column label {
       color: rgb(226, 226, 226);
@@ -149,6 +151,14 @@ p, li, form, ::placeholder {
     justify-content: center;
     }
 
+    .header h1 {
+      padding-left: 0;
+    }
+
+    .nav-bar{
+      display: none;
+    }
+
     .container {
       display: flex;
       justify-content: center;
@@ -162,6 +172,10 @@ p, li, form, ::placeholder {
   
     .column input[type=submit] {
       text-align: center;
+    }
+
+    input[type=submit] {
+     margin-left: auto;
     }
 
     .visit-us {
