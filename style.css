@@ -170,6 +170,7 @@ margin-left: 50px;
     justify-content: center;
     align-items: center;
     width: 1000px;
+    z-index: 1;
 }
 .Card-container{
     width: 800px;
@@ -487,10 +488,15 @@ height: 68px;
     display: none;
 }
 
+.Main{
+    display: flex;
+    flex-direction: column;
+
+}
+
 .Upper-main{
     display: flex;
     flex-direction: column;
-    min-height: 2000px;
 }
 
 .Upper-main p{
@@ -503,8 +509,10 @@ height: 68px;
     display: flex;
     flex-direction: column;
     justify-content:flex-end ;
-    align-items: center;
-    order: 3;
+    align-items: center ;
+    background-color:  #A9A19E;
+    max-width: 558px;
+
 
 }
 
@@ -512,7 +520,15 @@ height: 68px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
 
+.Upper-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.Take-me-up{
+    display: none;
 }
 
 }
