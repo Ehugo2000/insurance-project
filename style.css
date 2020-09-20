@@ -496,10 +496,17 @@ height: 68px;
 .Upper-main{
     display: flex;
     flex-direction: column;
+    height: 550px;
+}
+.H1-button{
+    padding: 0px;
 }
 
+
 .Upper-main p{
-    margin-top: 0;
+    margin-left: unset;
+    margin-top: unset;
+    max-width: unset;
 }
 
 .Card-block{
@@ -517,12 +524,36 @@ height: 68px;
     flex-direction: column;
     justify-content: space-between;
     width: unset;
+    height: 1000px ;
+    margin-bottom: 50px;
+}
+
+.Lower-main{
+    display: flex;
+    justify-content: unset;
+    height: unset;
 }
 
 .Upper-footer{
     display: flex;
     flex-direction: column;
 }
+
+.square1{
+    min-height: 330px;
+}            
+.square2{
+    min-height: 330px;
+}            
+.square3{
+    min-height: 330px;
+}            
+.square4{
+    min-height: 330px;
+}            
+.square5{
+    min-height: 330px;
+}            
 
 .Take-me-up{
     display: none;
