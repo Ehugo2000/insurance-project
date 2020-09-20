@@ -496,6 +496,7 @@ height: 68px;
 .Upper-main{
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 550px;
 }
 .H1-button{
@@ -506,8 +507,9 @@ height: 68px;
 .Upper-main p{
     margin-left: unset;
     margin-top: unset;
-    max-width: unset;
+    max-width: 415px;
 }
+
 
 .Card-block{
     grid-column: 1/3;
@@ -538,25 +540,33 @@ height: 68px;
     display: flex;
     flex-direction: column;
 }
+.how-it-works{
+    height: 230px;
+    min-height: unset;
+}
 
 .square1{
-    min-height: 330px;
+    min-height: 230px;
 }            
 .square2{
-    min-height: 330px;
+    min-height: 230px;
 }            
 .square3{
-    min-height: 330px;
+    min-height: 230px;
 }            
 .square4{
-    min-height: 330px;
+    min-height: 230px;
 }            
 .square5{
-    min-height: 330px;
+    min-height: 230px;
 }            
 
 .Take-me-up{
     display: none;
+}
+
+.Lower-footer{
+    height: 230px;
 }
 
 }
