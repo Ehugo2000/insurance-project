@@ -516,6 +516,7 @@ height: 68px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: unset;
 }
 
 .Upper-footer{
