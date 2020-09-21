@@ -193,6 +193,7 @@ z-index: 1;
     font-size: 45px;
     max-width: 300px;
     max-height: 150px;
+    min-width: 300px;
 }
 
 .H2-button{

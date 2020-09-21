@@ -49,6 +49,16 @@ li {
     padding-left: 10%;
     padding-right: 10%;
 }
+.home-button{
+  opacity: 40%;
+}
+.our-button{
+  opacity: 40%;
+}
+.why-button{
+  opacity: 40%;
+}
+
 
 /*---------- Main block ----------*/
 
