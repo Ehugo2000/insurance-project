@@ -1,5 +1,10 @@
-/* CSS för Header */
 
+
+/* Här är en wrapper----------------- */
+.wrapper{
+    max-width: 1000px;
+    margin: auto;
+}
 
 /*---------- Fonts ----------*/
 h1, h2, h3 {
@@ -320,11 +325,7 @@ z-index: 1;
     font-size: 45px;
 }
 
-/* Här är en wrapper----------------- */
-.wrapper{
-    max-width: 1000px;
-    margin: auto;
-}
+
 /* Här börjar footer -----------------*/
 .Upper-footer{
     display: grid;
