@@ -124,6 +124,7 @@ background-size: cover;
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
+
     padding-left: 10%;
     padding-right: 10%;
 }
