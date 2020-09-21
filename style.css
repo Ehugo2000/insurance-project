@@ -10,7 +10,7 @@ p, li, button a {
 }
 
 body{
-    background-color:  #E5E5E5;
+  background-color:  #E5E5E5;
 }
 
 strong {
@@ -22,8 +22,7 @@ strong {
 .header-class {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    
+    grid-template-rows: repeat(2, 1fr);   
 }
 
 
@@ -33,23 +32,20 @@ strong {
     background-color: #C7DDEA;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    
+    grid-template-rows: repeat(2, 1fr);  
 }
    
-
 .covered-text-class{
     grid-row: 1;
     grid-column: 1/3;
     text-align: left;
     padding-left: 20%;
-    padding-right: 20%;
-    
+    padding-right: 20%;  
    }
-
 .covered-text-class h1 {
     font-size: xx-large;
 }
+
 .covered-button-class{
     grid-row: 2;
     grid-column: 1/2;
@@ -65,16 +61,12 @@ button {
     font-size: 10px;
     text-align: center;
     border: none;
-    box-shadow: 1px 2px #888888;
-    
-    
+    box-shadow: 1px 2px #888888;   
   }
 
 .covered-pic-class{
-grid-row: 2;
-grid-column: 2;
- 
-
+    grid-row: 2;
+    grid-column: 2;
 }
 
 .learn-class{
@@ -84,7 +76,6 @@ grid-column: 2;
     text-align: center;
     padding: 10%;
     font-weight: bold;
-
 }
 
 .join-class {
@@ -94,7 +85,6 @@ grid-column: 2;
     text-align: center;
     padding: 10%;
     font-weight: bold;
-
 }
 
 .navbar{
@@ -102,67 +92,65 @@ grid-column: 2;
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
-
-
-
 }
 
 
 /* ------------CSS för Main -------------*/
-.Main h1,h2{
+.Main h2{
  color: #ffffff;
 }
 /* Här är griden för Main, både Upper och Lower -----------*/
 .Main{
-display: grid;
-grid-template-columns: repeat(2,1fr) ;
-grid-template-rows: repeat(2,1fr);
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-template-rows: repeat(2,1fr);
 }
 
 .Upper-main{
-display: flex; 
-flex-direction: row;   
-grid-column: 1/3;
-grid-row: 1;
-background-color: #A9A19E;
-height: 680px;
+    display: flex; 
+    flex-direction: row;   
+    grid-column: 1/3;
+    grid-row: 1;
+    background-color: #A9A19E;
+    height: 680px;
 }
 
 .Lower-main{    
-display: flex;
-flex-direction: column;
-justify-content: flex-end;    
-grid-column: 1/3;    
-grid-row: 2;
-background-color: #FAB131;
-height:680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;    
+    grid-column: 1/3;    
+    grid-row: 2;
+    background-color: #FAB131;
+    height:680px;
 }
+
 /* Här slutar griden ----------------------------------*/
 .Upper-main p{
-margin-left: 100px;
-margin-top: 130px;
-max-width: 300px;
-font-size: 13px;
-line-height: 24px;
-font-weight: bold ;
-opacity: 60%;
+    margin-left: 100px;
+    margin-top: 130px;
+    max-width: 300px;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: bold ;
+    opacity: 60%;
 }
 
 .join-now{
-margin-top: 50px;       
+    margin-top: 50px;       
 }
 
-.Upper-main h1{
-font-size: 45px;
-max-width: 300px;
-max-height: 150px;
+.Upper-main h2{
+    font-size: 45px;
+    max-width: 300px;
+    max-height: 150px;
 }
 
-.H1-button{
-padding: 70px;
-margin-left: 50px;
+.H2-button{
+    padding: 70px;
+    margin-left: 50px;
 }
-
+/* Här börjar grid:en för card-blocket ----------- */
 .Card-block{
     grid-column: 1/3;
     grid-row: 1/3;
@@ -171,11 +159,11 @@ margin-left: 50px;
     align-items: center;
     z-index: 1;
 }
+/* Här slutar grid:en för card-blocket ----------*/
 .Card-container{
     width: 800px;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .Child-card{
@@ -185,6 +173,7 @@ margin-left: 50px;
     text-align: center;
     border-radius: 5px;
 }
+
 .Child-card p{
     font-size: 10px;
     line-height: 17px;
@@ -198,12 +187,11 @@ margin-left: 50px;
     margin-left: 25px;
     background-color: #C7DDEA;
     width: 200px;
-    border-radius: 5px;
-    
+    border-radius: 5px;  
 }
 
 .Child img{
-  height: 150px;
+    height: 150px;
 }
 
 .Adult-card{
@@ -213,6 +201,7 @@ margin-left: 50px;
     text-align: center;
     border-radius: 5px;
 }
+
 .Adult-card p{
     font-size: 10px;
     line-height: 17px;
@@ -245,10 +234,9 @@ margin-left: 50px;
     font-size: 10px;
     line-height: 17px;
     opacity: 50%;
-    font-weight: 600;
-    
-    
+    font-weight: 600;   
 }
+
 .Old{
     margin-top: -20px;
     display: flex;
@@ -257,52 +245,51 @@ margin-left: 50px;
     width: 200px;
     border-radius: 5px;
 }
+
 .Old img{
     height: 150px;
     margin-left: -15px;
-    
 }
 
 .Lower-main p {
-max-width: 400px;
-margin-bottom: 100px;
-align-self: center;
-font-size: 12px;
-line-height: 20px;
-text-align: center;
-font-weight: 600;
-opacity: 60%;
-
+    max-width: 400px;
+    margin-bottom: 100px;
+    align-self: center;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 600;
+    opacity: 60%;
 }
 
 .Lower-main h2{
     max-width: 350px;
     margin-bottom: 50px;
     align-self: center;    
-line-height: 1px;
-font-size: 45px;
+    line-height: 1px;
+    font-size: 45px;
 }
+
 /* Här är en wrapper----------------- */
 .wrapper{
-max-width: 1000px;
-margin: auto;
+    max-width: 1000px;
+    margin: auto;
 }
 /* Här börjar footer -----------------*/
 .Upper-footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    
 }
 
 .how-it-works{
     display: flex;
     justify-content: center;
     align-items: center;
-   background-color:#C7DDEA;  
-   grid-column: 1;
-   grid-row: 1;
-   min-height: 330px;
+    background-color:#C7DDEA;  
+    grid-column: 1;
+    grid-row: 1;
+    min-height: 330px;
 }
 
 .how-it-works h3{
@@ -320,8 +307,7 @@ margin: auto;
     justify-content: space-evenly;
     background-color: #ffffff;
     grid-column: 2;
-    grid-row: 1;
-    
+    grid-row: 1; 
 }
 
 .square1 p{
@@ -337,23 +323,18 @@ margin: auto;
     opacity: 40%;
 }
 
-
-
 .square2{
     display: flex;
     justify-content: space-evenly;
     background-color:#EBEBEB;
     grid-column: 3;
     grid-row: 1;
-
 }
 
 .square2 p{
     align-self: center;
     margin-right: 80px;
     text-align: center;
-
-
 }
 
 .square2 h3{
@@ -365,8 +346,9 @@ margin: auto;
 .square3{
     display: flex;
     justify-content: space-evenly;
-background-color: #ffffff;
+    background-color: #ffffff;
 }
+
 .square3 p{
     align-self: center;
     margin-right: 50px;
@@ -382,8 +364,8 @@ background-color: #ffffff;
     display: flex;
     justify-content: space-evenly;
     background-color: #F17949;
-
 }
+
 .square4 p{
     align-self: center;
     margin-right: 50px;
@@ -401,7 +383,6 @@ background-color: #ffffff;
 }
 
 .square5 p{
-
     align-self: center;
     margin-right: 110px;
 }
@@ -412,14 +393,14 @@ background-color: #ffffff;
     opacity: 40%;
 }
 
-
+/* Här börjar Take me up blocket --------*/
 .Take-me-up{
-background-color:  #A9A19E;    
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 68px;
+    background-color:  #A9A19E;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 68px;
 }
 
 .take-me-link{
@@ -429,28 +410,21 @@ height: 68px;
     font-weight: 500;
 }
 
-.Lower-footer{
-
-    height: 340px;
-    background-color: #777574;
-}
-
 .Take-me-up img{
-
     height: 10px;
     width: 14px;
 }
 
-
+.Lower-footer{
+    height: 340px;
+    background-color: #777574;
+}
 
 /* ändrade storlekt på bilderna för att fixa layouten lättare */
 .covered-pic-class img{
-
     height: 200px;
     width: 200px;
 }
-
-
 /*-------------------- Media queries --------------------*/
 @media only screen and (max-width: 600px) {
     
@@ -465,12 +439,10 @@ height: 68px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
 .covered-button-class{
-    margin-left: 0;
-   
+    margin-left: 0;  
 }
 
 .navbar{
@@ -480,7 +452,6 @@ height: 68px;
 .Upper-main{
     display: flex;
     flex-direction: column;
-
 }
 
 .join-now{
@@ -490,7 +461,6 @@ height: 68px;
 .Main{
     display: flex;
     flex-direction: column;
-
 }
 
 .Upper-main{
@@ -499,17 +469,16 @@ height: 68px;
     align-items: center;
     height: 550px;
 }
-.H1-button{
+
+.H2-button{
     padding: 0px;
 }
-
 
 .Upper-main p{
     margin-left: unset;
     margin-top: unset;
     max-width: 415px;
 }
-
 
 .Card-block{
     grid-column: 1/3;
@@ -547,16 +516,20 @@ height: 68px;
 
 .square1{
     min-height: 230px;
-}            
+} 
+
 .square2{
     min-height: 230px;
-}            
+}
+
 .square3{
     min-height: 230px;
-}            
+}
+
 .square4{
     min-height: 230px;
-}            
+}
+            
 .square5{
     min-height: 230px;
 }            
