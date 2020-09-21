@@ -136,6 +136,15 @@ z-index: 1;
     padding-right: 15%;
 }
 
+.our-button{
+    opacity: 40%;
+}
+.why-button{
+    opacity: 40%;
+}
+.contact-button{
+    opacity: 40%;
+}
 
 /* ------------CSS för Main -------------*/
 
@@ -432,6 +441,7 @@ z-index: 1;
     font-size: 25px;
     opacity: 40%;
 }
+
 
 /* Här börjar Take me up blocket --------*/
 .Take-me-up{
