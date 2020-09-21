@@ -61,12 +61,15 @@ button {
     font-size: 10px;
     text-align: center;
     border: none;
-    box-shadow: 1px 2px #888888;   
+    box-shadow: 1px 2px #888888;
+     
   }
 
 .covered-pic-class{
-    grid-row: 2;
-    grid-column: 2;
+grid-row: 2;
+grid-column: 2;
+background-image: url(img/family.png);
+background-size: cover;
 }
 
 .learn-class{
@@ -442,7 +445,8 @@ button {
 }
 
 .covered-button-class{
-    margin-left: 0;  
+    margin-left: 0;
+   
 }
 
 .navbar{
