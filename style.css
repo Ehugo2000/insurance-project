@@ -8,6 +8,7 @@ h1, h2, h3 {
 
 h2 {
     font-size: 32px;
+    color: white;
 }
 
 .covered-text-class p {
@@ -129,16 +130,15 @@ z-index: 1;
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
-
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 
 /* ------------CSS för Main -------------*/
-.Main h2{
- color: #ffffff;
-}
+
 /* Här är griden för Main, både Upper och Lower -----------*/
 .Main{
     display: grid;
